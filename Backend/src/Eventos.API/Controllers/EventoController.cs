@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Eventos.API.Data;
 using Eventos.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -12,30 +13,11 @@ namespace Eventos.API.Controllers
     [Route("api/[controller]")]
     public class EventoController : ControllerBase
     {
+        private readonly DataContext _context;
 
-        public IEnumerable<Evento> _evento =  new Evento[] {
-                new Evento(){
-                EventoId = 1,
-                TemaDoEvento = "Angular Donet 5.0",
-                Local = "PT",
-                Lote = "1º Lote",
-                QtdMaxPessoas = 250,
-                DataEvento = DateTime.Now.AddDays(2).ToString("dd/MM/yyyy"),
-                ImagemURL = "foto.png" 
-            },
-             new Evento(){
-                EventoId = 2,
-                TemaDoEvento = "React",
-                Local = "EUA",
-                Lote = "2º Lote",
-                QtdMaxPessoas = 350,
-                DataEvento = DateTime.Now.AddDays(3).ToString("dd/MM/yyyy"),
-                ImagemURL = "foto1.png"
-             }
-            };
-
-        public EventoController()
-        { 
+        public EventoController(DataContext context)
+        {
+            _context = context;
         }
 
         [HttpGet]
@@ -43,20 +25,19 @@ namespace Eventos.API.Controllers
         // INumerable retorna um array e nao um evento
         public IEnumerable<Evento> Get()
         {
-            return _evento;
+            return _context.Eventos;
         }
 
-         [HttpGet("{id}")]
-        // retorna um evento
-        // INumerable retorna um array e nao um evento
-        public IEnumerable<Evento> GetById(int id)
+        [HttpGet("{id}")]
+        // retorna evento por id
+        public Evento GetById(int id)
         {
-            return _evento.Where(evento => evento.EventoId == id);
+            return _context.Eventos.FirstOrDefault(evento => evento.EventoId == id);
         }
 
 
 
 
-        
+
     }
 }
