@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel.goncalves\\Documents\\Coding\\Eventos\\backend\\src\\Eventos.API\\Eventos.API.csproj": {}
+    "C:\\Users\\Daniel.goncalves\\Documents\\Coding\\Eventos\\backend\\src\\eventos.api\\Eventos.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel.goncalves\\Documents\\Coding\\Eventos\\backend\\src\\Eventos.API\\Eventos.API.csproj": {
+    "C:\\Users\\Daniel.goncalves\\Documents\\Coding\\Eventos\\backend\\src\\eventos.api\\Eventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel.goncalves\\Documents\\Coding\\Eventos\\backend\\src\\Eventos.API\\Eventos.API.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel.goncalves\\Documents\\Coding\\Eventos\\backend\\src\\eventos.api\\Eventos.API.csproj",
         "projectName": "Eventos.API",
-        "projectPath": "C:\\Users\\Daniel.goncalves\\Documents\\Coding\\Eventos\\backend\\src\\Eventos.API\\Eventos.API.csproj",
+        "projectPath": "C:\\Users\\Daniel.goncalves\\Documents\\Coding\\Eventos\\backend\\src\\eventos.api\\Eventos.API.csproj",
         "packagesPath": "C:\\Users\\Daniel.goncalves\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel.goncalves\\Documents\\Coding\\Eventos\\backend\\src\\Eventos.API\\obj\\",
+        "outputPath": "C:\\Users\\Daniel.goncalves\\Documents\\Coding\\Eventos\\backend\\src\\eventos.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

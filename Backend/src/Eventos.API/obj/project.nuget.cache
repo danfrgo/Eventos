@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MtoC1z2n9/Uf3DyyfcDh5ZFYhb/fF8vbdkwUHd+9thbhxiOnTD6PJ1O0fhSZuJD/EamD3PQebDio7m+y/tfJ4Q==",
+  "dgSpecHash": "6EZiUgiXO3YIRk41HUNx2396g500IABnV5zBMLLDl0u26El5JRwsn5+gwUVabJ3eRZJQ08iOHB9CJzohp3WRnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Daniel.goncalves\\Documents\\Coding\\Eventos\\backend\\src\\Eventos.API\\Eventos.API.csproj",
+  "projectFilePath": "C:\\Users\\Daniel.goncalves\\Documents\\Coding\\Eventos\\backend\\src\\eventos.api\\Eventos.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Daniel.goncalves\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Daniel.goncalves\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
